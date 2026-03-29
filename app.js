@@ -191,6 +191,7 @@ sendBtn.addEventListener("click", async () => {
         });
 
     } catch {
+        console.error("DEBUG ERROR:", error);
         modelEl.classList.remove("typing");
         modelEl.querySelector(".bubble").textContent = "Network or server error. Please try again.";
     } finally {
