@@ -1,28 +1,27 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Assistant Workspace</title>
-<link rel="stylesheet" href="style.css">
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant Workspace</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 <div class="app-container">
     <aside class="sidebar">
-        <button id="newChatBtn">Новий чат</button>
+        <button id="newChatBtn">New Chat</button>
         <div id="chatHistory" class="chat-history"></div>
     </aside>
     <main class="chat-area">
         <header>
             <h1 id="userGreeting">AI Assistant</h1>
-            <button id="authBtn">Увійти через Google</button>
+            <button id="authBtn">Sign in with Google</button>
         </header>
         <div id="messagesContainer" class="messages-container"></div>
         <div class="input-area">
-            <textarea id="messageInput" placeholder="Введіть запит..." disabled></textarea>
-            <button id="sendBtn" disabled>Надіслати</button>
+            <textarea id="messageInput" placeholder="Type your message..." disabled></textarea>
+            <button id="sendBtn" disabled>Send</button>
         </div>
     </main>
 </div>
